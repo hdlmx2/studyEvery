@@ -8,7 +8,7 @@ public class TestDemo {
         int sum = 0;
         for (int i = 0; i < objects.length; i++) {
             sum += objects[i];
-        }
+         }
 
         return sum;
     }

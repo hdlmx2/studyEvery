@@ -6,6 +6,10 @@ public class Demo {
         String string="handong,muxing,";
 
         String[] ss=string.split(",");
+
+        for(String out:ss){
+            System.out.println(out);
+        }
         System.out.println(ss.length);
     }
 }
